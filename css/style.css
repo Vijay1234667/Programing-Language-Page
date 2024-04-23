@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Noto+Serif:ital,wght@0,400;0,500;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,500;1,600;1,700&family=PT+Serif:ital@1&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar-nav li a {
+  color: #dee2e6;
+  font-size: 14px;
+  font-family: "Noto Serif", serif;
+}
+.navbar {
+  background-color: #343a40;
+}
+
+/* banner-section */
+.banner-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img1/banner.avif);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+  background-position: 66;
+}
+.banner-content h1 {
+  font-size: 49px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.banner-content .btn {
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 6px 20px;
+  font-family: sans-serif;
+}
+
+/* ho-we-are-section */
+.ho-we-are-section {
+  background-color: #dee2e6;
+  padding: 50px 0px 50px;
+}
+.ho-we-are-section .btn {
+  font-weight: 500;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 1px groove blueviolet;
+  border-radius: 10px;
+}
+.ho-we-are-section .btn:hover {
+  background-color: coral;
+}
+.ho-we-are-section p {
+  padding: 0px 40px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "PT Serif", serif;
+}
+p {
+  font-family: "PT Serif", serif;
+}
+h1 {
+  font-family: "Grand Hotel", cursive;
+}
+h2,
+h3,
+h4 {
+  font-family: "Noto Serif", serif;
+}
+.title-line {
+  width: 4rem;
+}
+
+/* main-services */
+.main-services {
+  background-color: #dee2e6;
+  padding: 20px 0px 20px;
+}
+.yoga-position {
+  width: 101px;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 9%;
+}
+.nav-pills {
+  justify-content: space-evenly;
+}
+.main-services .btn {
+  font-weight: 500;
+  padding: 6px 16px;
+  font-size: 15px;
+  border: 1px groove blueviolet;
+  border-radius: 6px;
+}
+
+/* Yoga Benefits */
+.Portfolio {
+  background-color: #dee2e6;
+  padding: 30px 0px 50px;
+}
+.Portfolio .d-flex {
+  height: 50px;
+  border: 1px solid gray;
+  align-items: center;
+  width: 71%;
+  border-radius: 10px;
+  margin: auto;
+}
+.portfolio-box h4 {
+  font-size: 19px;
+  font-weight: 400 !important;
+}
+
+/* Yoga Positions */
+.top-language {
+  background-color: #dee2e6;
+  padding: 20px 0px 30px;
+}
+.top-language .img-fluid {
+  height: 107px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 11px;
+  border: 1px solid gray;
+}
+
+/* our-instructors */
+.our-instructors {
+  background-color: #dee2e6;
+  padding: 30px 0px 20px;
+}
+.our-instructors .img-fluid {
+  width: 80%;
+  height: 280px;
+}
+.our-instructors p {
+  font-size: 16px;
+  margin: 20px 0px 20px;
+}
+.our-instructors .our-instructors-icons i {
+  box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+  border-radius: 50%;
+  margin: 5px;
+  padding: 20px;
+  font-size: 14px;
+}
+.our-instructors .our-instructors-icons i:hover {
+  box-shadow: 3px 10px 40px orange, -3px -3px 3px red;
+  transition: ease 0.12s;
+  cursor: pointer;
+  background-color: aqua;
+  font-size: 20px;
+  color: red;
+}
+
+/* video-section */
+.video-section-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(img1/web-developer-portfolio.webp);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.video-text {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+/* red-background  */
+.red-background {
+  padding: 30px 0px 30px;
+}
+/* .textti */
+.textti{
+    padding: 20px 0px 20px;
+}
+/* yoga-gallery */
+.yoga-gallery {
+  background-color: #dee2e6;
+  padding: 20px 0px 20px;
+}
+
+/* contact-section */
+.contact-section {
+  background-color: #dee2e6;
+  padding: 20px 0px 20px;
+}
+
+.contact-section .rounded-circle1 {
+  box-shadow: 3px 3px 0px #cdcdcd, -1px -1px 1px #fafafa;
+  border-radius: 5px;
+  padding: 11px;
+  height: 55px;
+}
+.appointment-body label {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "PT Serif", serif;
+}
+.appointment-body input {
+background-color:#343a4023;
+}
+
+/* footer-section */
+.footer-section {
+  background-color: #343a40;
+  padding: 20px 0px 20px;
+}
+
+.footer-section i {
+  box-shadow: 1px 1px 1px #cdcdcd, -1px -1px 1px #fafafa;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.textti {
+  background-color: #dee2e6;
+}
+
+@media (max-width: 768px) {
+  .banner-content h1 {
+    font-size: 27px;
+  }
+  /* ho-we-are-section */
+  .ho-we-are-section {
+    padding: 20px 0px 0px;
+  }
+  .ho-we-are-section .btn {
+    margin-bottom: 20px;
+  }
+  .ho-we-are-section p {
+    padding: 0px 0px 0px;
+    width: 100%;
+  }
+  .ho-we-are-section .btn {
+    font-weight: 400;
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+  }
+  .ho-we-are-section .round-img{
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+  }
+  /* main-services */
+  .main-services {
+    padding: 30px 0px 10px;
+    text-align: center;
+  }
+  .main-services .btn2 {
+    margin-top: 10px;
+  }
+  /* Yoga Benefits */
+  .Portfolio {
+    padding: 20px 0px 10px;
+  }
+  .Portfolio .d-flex {
+    padding: 5px 20px;
+    border-radius: 0%;
+  }
+  .benifit-btn .btn {
+    border-radius: 20px;
+    margin: 20px 0px 20px;
+    padding: 10px 20px 10px;
+  }
+  /* Yoga Positions */
+  .top-language {
+    padding: 10px 0px 20px;
+    text-align: center;
+  }
+  .top-language .img-fluid {
+    height: 150px;
+    width: 100%;
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+    border-radius: 10%;
+    padding: 20px;
+    margin: 10px 0px 10px;
+  }
+  /* our-instructors */
+  .our-instructors {
+    padding: 10px 0px 10px;
+  }
+  .our-instructors .img-fluid {
+    width: 100%;
+  }
+  .our-instructors p {
+    font-size: 19px;
+    margin: 10px 0px 10px;
+  }
+  .our-instructors .our-instructors-icons i {
+    border-radius: 10px;
+    font-size: 19px;
+  }
+  .our-instructors .btn {
+    width: 50%;
+  }
+  .portfolio-box h4 {
+    padding: 11px;
+  }
+  /* red-background  */
+  .red-background {
+    padding: 30px 0px 30px;
+  }
+  /* TESTIMONIALS */
+  .TESTIMONIALS {
+    padding: 30px 0px 30px;
+  }
+  .TESTIMONIALS .card {
+    box-shadow: 3px 3px 3px #cdcdcd, -3px -3px 3px #fafafa;
+  }
+  .TESTIMONIALS img {
+    width: 20%;
+  }
+  /* yoga-gallery */
+  .yoga-gallery {
+    padding: 20px 0px 20px;
+  }
+  /* contact-section */
+  .contact-section {
+    padding: 10px 0px 10px;
+  }
+  .contact-section h5{
+    font-size: 15px;
+  }
+  .contact-section h4{
+    font-size: 16px;
+  }
+  /* footer-section */
+  .footer-section {
+    padding: 10px 0px 10px;
+  }
+ 
+  .footer-section img{
+    height: 35px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+  }
+  .footer-section-icons {
+    padding: 10px 0px 10px;
+  }
+  .footer-copyright {
+    padding: 10px 0px 10px;
+  }
+}
+
+/* Feel free to change duration  */
+
+.animated {
+  -webkit-animation-duration: 1000 ms;
+  animation-duration: 1000 ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/* .owl-animated-out - only for current item */
+/* This is very important class. Use z-index if you want move Out item above In item */
+.owl-animated-out {
+  z-index: 1;
+}
+/* .owl-animated-in - only for upcoming item
+  /* This is very important class. Use z-index if you want move In item above Out item */
+.owl-animated-in {
+  z-index: 0;
+}
+/* .fadeOut is style taken from Animation.css and this is how it looks in owl.carousel.css:  */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
