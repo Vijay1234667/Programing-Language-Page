@@ -249,7 +249,7 @@ background-color:#343a4023;
     border-radius: 6px;
   }
   .ho-we-are-section .round-img{
-    width: 70%;
+    width: 80%;
     margin: 0px auto;
     display: block;
   }
@@ -291,12 +291,23 @@ background-color:#343a4023;
   .our-instructors {
     padding: 10px 0px 10px;
   }
+  .our-instructors .our-instructors-icons i {
+    border-radius: 7px;
+    padding: 18px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
   .our-instructors .img-fluid {
     width: 100%;
   }
   .our-instructors p {
     font-size: 19px;
     margin: 10px 0px 10px;
+  }
+  .our-instructors .img-fluid{
+    width: 70%;
+    display: block;
+    margin: auto;
   }
   .our-instructors .our-instructors-icons i {
     border-radius: 10px;
@@ -352,6 +363,9 @@ background-color:#343a4023;
   }
   .footer-copyright {
     padding: 10px 0px 10px;
+  }
+  .textti .card{
+    border-radius: 10px;
   }
 }
 
